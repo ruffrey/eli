@@ -1,7 +1,7 @@
 {
   "name": "eli",
   "description": "Unofficial library for Eligible API insurance claims",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/ruffrey/eli",
   "keywords": [
     "eligibility",

@@ -16,14 +16,21 @@ Very much in development and NOT ready for production use. Let's work together t
 
 ```javascript
 	
-	// production mode
-	var Eli = require('eli')(YourApiKey);
-		
-	// test mode
-	var Eli = require('eli')(YourApiKey, true);
+	var Eli = require('eli');
 	
-	Eli
+	
+	// for production mode
+	
+	var eli = new Eli(YourApiKey);
+	
+	// for test mode
+	var eli = new Eli(YourApiKey, true);
+	
+	eli
 		.coverage({
+			api_key: "ksjfas9320",
+			
+			// lots more data, see official documentation!
 			
 		}, function(err, body) {
 			
