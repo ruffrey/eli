@@ -48,7 +48,7 @@ module.exports = exports = function(ApiKey) {
 		TestMode && (opts.test = true);
 		
 		r({
-			url: endpoint,
+			uri: endpoint,
 			method: 'POST',
 			json: opts
 			
@@ -67,7 +67,7 @@ module.exports = exports = function(ApiKey) {
 		TestMode && (opts.test = true);
 		
 		r({
-			url: endpoint,
+			uri: endpoint,
 			method: 'POST',
 			json: opts
 			
