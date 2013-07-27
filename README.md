@@ -20,7 +20,6 @@ Very much in development and NOT ready for production use. Let's work together t
 	
 	
 	// for production mode
-	
 	var eli = new Eli(YourApiKey);
 	
 	// for test mode
