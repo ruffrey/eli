@@ -1,4 +1,4 @@
-eli
+eli.js
 ===
 
 Eligibility API library in Node.js
