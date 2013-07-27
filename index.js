@@ -5,7 +5,7 @@ var request = require("request");
 module.exports = exports = function(ApiKey) {
 	if(!ApiKey) throw new Error("eli.js is missing ApiKey");
 	
-	var TestMode = !!arguments[1] || false;
+	var TestMode = !!arguments[1];
 	
 	var r = request.defaults({
 		timeout: 1000 * 60,
@@ -29,7 +29,7 @@ module.exports = exports = function(ApiKey) {
 	this.demographics = function(opts, cb) {
 		var endpoint = "https://gds.eligibleapi.com/v1.1/demographic/all.json";
 		
-		opts.api_key = ApiKey
+		opts.api_key = ApiKey;
 		TestMode && (opts.test = true);
 		
 		r({
@@ -82,7 +82,7 @@ module.exports = exports = function(ApiKey) {
 	this.claimStatus = function(opts, cb) {
 		var endpoint = "https://gds.eligibleapi.com/v1.1/payment/status.json";
 		
-		opts.api_key = ApiKey
+		opts.api_key = ApiKey;
 		TestMode && (opts.test = true);
 		
 		r({
