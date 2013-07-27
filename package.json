@@ -1,18 +1,18 @@
 {
   "name": "eli",
-  "description": "Eligibility API library for Node.js",
-  "version": "0.0.1",
-  "homepage": "https://github.com/jeremyosborne/packagejsonexample",
+  "description": "Unofficial library for Eligible API insurance claims",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ruffrey/eli",
   "keywords": [
     "eligibility",
-    "eligibile",
+    "eligible",
     "medical",
     "authorizations",
     "claims"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeremyosborne/packagejsonexample.git"
+    "url": "https://github.com/ruffrey/eli.git"
   },
   "author": {
     "name": "Wiggleware",
